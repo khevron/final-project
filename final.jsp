@@ -4,7 +4,7 @@
 </HEAD>     
 <BODY BGCOLOR="#ffffcc">     
 <% if (request.getParameter("id")==
-null && request.getParameter("email")
+null && request.getParameter("name")
  == null) { %>     
 <CENTER>     
 <H2>User Info Request Form</H2>     
