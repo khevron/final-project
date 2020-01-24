@@ -3,8 +3,8 @@
 <TITLE>Form Example</TITLE>     
 </HEAD>     
 <BODY BGCOLOR="#ffffcc">     
-<% if (request.getParameter("id")==
-null && request.getParameter("name")
+<% if (request.getParameter("name")==
+null && request.getParameter("email")
  == null) { %>     
 <CENTER>     
 <H2>User Info Request Form</H2>     
