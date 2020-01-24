@@ -3,7 +3,7 @@
 <TITLE>Form Example</TITLE>     
 </HEAD>     
 <BODY BGCOLOR="#ffffcc">     
-<% if (request.getParameter("name")==
+<% if (request.getParameter("id")==
 null && request.getParameter("email")
  == null) { %>     
 <CENTER>     
