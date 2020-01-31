@@ -3,8 +3,8 @@
 <TITLE>Form Example</TITLE>     
 </HEAD>     
 <BODY BGCOLOR="#2dfdd4">     
-<% if (request.getParameter("name")==
-null && request.getParameter("email")
+<% if (request.getParameter("id")==
+null && request.getParameter("gmail")
  == null) { %>     
 <CENTER>     
 <H2>Final project-Devops</H2>     
